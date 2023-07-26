@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-weight: 400;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 700;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0 2rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+header ul{
+    display: flex;
+    list-style: none;
+}
+header ul a{
+    text-decoration: none;
+    padding: 0 0.35rem;
+    margin: 0 0.35rem;
+    color: #000;
+    font-weight: 500;
+}
+
+section{
+    background-image: url(../images/model-3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+section .carName{
+    padding-top: 6rem;
+    text-align: center;
+}
+section .carName h1{
+    font-size: 3rem;
+}
+section .cta{
+    text-align: center;
+}
+section .cta .buttons{
+    padding-bottom: 3em;
+}
+section .cta .buttons a{
+    text-decoration: none;
+    margin: 0 10px;
+    width: 250px;
+    display: inline-block;
+    border-radius: 25px;
+    padding: 0.5rem 1rem;
+}
+section .cta .buttons .firstBtn{
+    background-color: rgba(0,0,0,0.5);
+    color: #fff;
+}
+section .cta .buttons .secondBtn{
+    background-color: rgba(255,255,255,0.5);
+    color: #000;
+}
+section .cta img{
+    width: 40px;
+}
